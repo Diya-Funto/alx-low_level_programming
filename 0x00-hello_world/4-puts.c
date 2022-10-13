@@ -2,7 +2,7 @@
 /**
  * main - Entry
  *
- * return
+ * return -when successful 0
  *
  */
 
