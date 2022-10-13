@@ -3,7 +3,6 @@
  * main - Entry
  *
  * return -when successful 0
- *
  */
 
 int main(void)
