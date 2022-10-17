@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+
 /**
  * main - Entry point
  *
@@ -10,7 +10,7 @@ int main(void)
 {
 	char lowrev;
 
-	for (lowrev = 'z'; lowrev <= 'z'; lowrev--)
+	for (lowrev = 'z'; lowrev >= 'a'; lowrev--)
 		putchar (lowrev);
 	putchar ('\n');
 
