@@ -1,3 +1,3 @@
-unsigned int _strspn(char *s, char *accept)
+int _atoi(char *s)
 {
 }
