@@ -29,6 +29,9 @@ char *_strdup(char *str)
 	s[i] = '\0';
 
 	if (s == NULL)
+	{
+		free(s);
 		return (NULL);
+	}
 	return (s);
 }
