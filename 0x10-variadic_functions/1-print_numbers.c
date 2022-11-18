@@ -14,8 +14,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list args;
 	unsigned int i;
 
-	if (separator == NULL)
-		return;
+	/*if (separator == NULL)
+		return;*/
 
 	va_start(args, n);
 
@@ -23,7 +23,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(args, int));
 
-		if (i < (n - 1) && separator)
+		if (i < (n - 1))
 			printf("%s", separator);
 	}
 
