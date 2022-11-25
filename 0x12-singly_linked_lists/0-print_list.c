@@ -1,12 +1,14 @@
 #include "lists.h"
 #include <stddef.h>
 #include <stdio.h>
+
 /**
  * print_list - Prints all the elements of a list_t list
  * @h: Pointer to head of list
  *
  * Return: Nodes
  */
+
 size_t print_list(const list_t *h)
 {
 	const list_t *s = h;
